@@ -1,92 +1,37 @@
-# React + TypeScript + Vite
-# 💰 Finance Dashboard App (MERN + ML Predictions)
+🚀 Finance Dashboard
 
-A full-featured Finance Dashboard built using the MERN stack with integrated machine learning predictions for revenue analysis. This project demonstrates full-stack development, data visualization, and predictive analytics using modern frontend and backend technologies.
+A modern Finance Dashboard for tracking income, expenses, budgets, and key financial metrics.
+Built with the MERN stack (MongoDB, Express.js, React.js, Node.js) with a responsive Ant Design interface.
 
----
-## 🚀 Tech Stack
+This dashboard is designed to be lightweight, easy to use, and highly customizable for personal finance or small business tracking.
 
-### 🔧 Frontend
-- [React](https://react.dev/) (via [Vite](https://vitejs.dev/))
-- [Redux Toolkit](https://redux-toolkit.js.org/)
-- [Material UI (MUI)](https://mui.com/)
-- [Recharts](https://recharts.org/en-US) – for charts
-- [React Router](https://reactrouter.com/)
+📌 Features
+✔ Dashboard Overview
 
-### ⚙️ Backend
-- [Node.js](https://nodejs.org/)
-- [Express.js](https://expressjs.com/)
-- [MongoDB](https://www.mongodb.com/) with [Mongoose](https://mongoosejs.com/)
+Visualize your finances with charts and summaries of income, expenses, and budgets.
 
-### 🤖 Machine Learning
-- [Regression.js](https://github.com/Tom-Alexander/regression-js) for predicting future revenue
+✔ Transaction Management
 
----
+Add, edit, and categorize your income and expense transactions.
 
-## 📊 Features
+✔ Budget Tracking
 
-- 📈 Key Performance Indicators Dashboard
-- 💼 Income & Expense Management
-- 🛍️ Product and Transaction CRUD APIs
-- 📊 Interactive Charts (Bar, Line, Pie)
-- 🤖 Revenue Prediction with Linear Regression
-- 🧭 Responsive & Clean UI using Material UI
-- 🚀 Deployed via [Vercel](https://vercel.com/) or [Fly.io](https://fly.io/)
+Set budgets for categories and monitor your spending.
 
----
+✔ Reports & Analytics
 
-## 📁 Folder Structure
+Generate reports to see trends over time and gain insights.
 
-/client → Frontend (React + Vite)
-/server → Backend (Express + MongoDB)
-/shared → Common interfaces/schemas (optional)
-/README.md → This file
+✔ Responsive Design
 
+Fully responsive interface with modern components using Ant Design (AntD).
 
----
+✔ MERN Stack Architecture
 
-## 🛠️ Setup Instructions
+Node.js + Express.js — Backend API
 
-### 1. Clone the repo
-```bash
-git clone 
-cd mern-finance-dashboard
-2. Install dependencies
-Client
-cd client
-npm install
-npm run dev
+MongoDB — Database
 
-Server
-cd server
-npm install
-npm run dev
+React.js — Frontend
 
-3. Environment Variables
-Create a .env file in the /server folder:
-env
-PORT=5000
-MONGO_URI=your_mongo_db_url
-JWT_SECRET=your_jwt_secret
-
-🧠 Learning Highlights
-Hands-on experience with Redux Toolkit + RTK Query
-
-API design with Express.js and MongoDB
-
-Machine learning integration in a real-world app
-
-Frontend design using Material UI + responsive layouts
-
-Recharts customization for clean, interactive graphs
-
-🌍 Deployment
-Frontend: Vercel
-
-Backend: Fly.io / Render / Railway / Cyclic (choose one)
-
-Database: MongoDB Atlas
-
-🙋‍♀️ Authors
-- [@aman-codde](https://github.com/aman-codde)
-
+Redux — State Management
